@@ -8,12 +8,33 @@ This project simulates an end-to-end Accounts Payable (AP) process for managing 
 The system processes 200+ supplier invoices across multiple vendors and sites, performing validation checks such as 3-way matching (PO-GRN-Invoice), duplicate payment detection, supplier reconciliation, and turnaround time monitoring.
 
 ### Key Features
-1. Invoice Processing
-2. Process supplier invoices and credit notes
-3. Validate invoice details before payment approval
+#### Invoice Processing
 
-4. 3-Way Matching
+Process supplier invoices and credit notes
 
+Validate invoice details before payment approval
+
+#### 3-Way Matching
+
+Ensures consistency between:
+
+Purchase Order (PO)
+
+Goods Receipt Note (GRN)
+
+Supplier Invoice
+
+#### Duplicate Invoice Detection
+
+Implemented using Excel COUNTIFS logic to detect duplicate:
+
+Vendor
+
+Invoice number
+
+Amount
+
+This prevented 10 duplicate payments.
 
 ### Supplier Reconciliation
 
@@ -48,6 +69,7 @@ VLOOKUP
 COUNTIFS
 
 Conditional Formatting
+
 
 ### Learning Outcomes
 
