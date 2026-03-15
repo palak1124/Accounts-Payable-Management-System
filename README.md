@@ -45,10 +45,9 @@ missing invoices
 duplicate payments
 
 outstanding balances
-
-KPI & MIS Reporting
-
-### Dashboard tracks:
+![Supplier Reconciliation](supplier.png)
+### KPI & MIS Reporting
+Dashboard tracks:
 
 On-time payment %
 
@@ -69,8 +68,8 @@ VLOOKUP
 COUNTIFS
 
 Conditional Formatting
-
-
+![AP Dashboard](mis.png)
+![AP Dashboard](dashboard.png)
 ### Learning Outcomes
 
 Understanding of Accounts Payable workflow
