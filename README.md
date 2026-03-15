@@ -14,15 +14,6 @@ The system processes 200+ supplier invoices across multiple vendors and sites, p
 
 4. 3-Way Matching
 
-Implemented using Excel COUNTIFS logic to detect duplicate:
-
-Vendor
-
-Invoice number
-
-Amount
-
-This prevented 10 duplicate payments.
 
 ### Supplier Reconciliation
 
