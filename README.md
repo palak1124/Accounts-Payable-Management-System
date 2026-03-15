@@ -44,7 +44,6 @@ missing invoices
 
 duplicate payments
 
-outstanding balances
 ![Supplier Reconciliation](supplier.png)
 ### KPI & MIS Reporting
 Dashboard tracks:
